@@ -6,5 +6,6 @@ urlpatterns = [
 path('test',views.TestFun,name='test'),
 
 path('test1',views.TestFun1,name='test1'),
+path('test2',views.TestFun2,name='test2')
 
 ]
