@@ -10,3 +10,10 @@ def TestFun1(request):
 
 def TestFun2(request):
     return render(request,'index.html')
+    
+def TestFun3(request):
+    return render(request,'sample-extnd2.html')
+
+def TestFun4(request):
+    return render(request,'student-reg.html')
+
